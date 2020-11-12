@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: abdulla.seif.1
 
 # Build settings
-theme: jekyll-theme-mehdix-rtl
+theme: minima
 plugins:
   - jekyll-feed
 
