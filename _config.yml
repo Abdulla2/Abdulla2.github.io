@@ -26,9 +26,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  Abdulla2
 facebook_username: abdulla.seif.1
+linkedin_username: abdullaseif
 
 # Build settings
 theme: minima
+dir: rtl
 plugins:
   - jekyll-feed
 
