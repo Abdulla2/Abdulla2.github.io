@@ -1,4 +1,3 @@
-
 # Abdulla: Bits of Tech Bites
 
 ## The first article of tech bites what is this and what I am doing here
@@ -35,3 +34,16 @@ didn't readproof it and it may have some mistakes I apologize for all
 of that.
 
 ### How this site is built, C++ and other things
+
+As stated above I had the idea for this for so long, I always wanted to make a yet another static site generator first to use it to generate my site/blog. From the introduction above you probably gussed it I haven't made my static site generator yet so I first wrote part of this aritcle in HTML but then told myself why am I doing this this way and wrote markdown and generated the html with pandoc, as you know minimalism is the new shiny thing in tech.
+
+Regardless I started making a static site generator in C++, you ask why C++ because I wanted to expand my  experience in it and made a simple todo list program in it, and thought it would be fun if my second program was a static site generator.
+
+I was this time serious in making the static site generator but I broke my hand and didn't finish anything, My hand is now healed thanks for asking and I will return to it and when it's finished I will use it to publish this site.
+
+
+### The state of the so called static site generator
+
+When I started writing it, I thought it would be good to write a C++ container that represents a tree data structure, one of the other projects I dreamed about is writing most of the STL but since my design for the static site generator needed a tree and there's no tree in the standard library of C++ it looked more and more appealing so here I am stuck at making C++ tree iterator with segfaults here and there maybe tomorrow It will be finished and I will share it with you, One can only hope.
+
+Thank you, If there is anyone reading this I'd be surprised I wrote this to blow some ideas and I have a lot more I wrote it for myself to serve as a motivation but if you are reading it kind reader I'd be very happy to contact me on my linkedin on my github page.
