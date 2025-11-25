@@ -47,3 +47,35 @@ I was this time serious in making the static site generator but I broke my hand 
 When I started writing it, I thought it would be good to write a C++ container that represents a tree data structure, one of the other projects I dreamed about is writing most of the STL but since my design for the static site generator needed a tree and there's no tree in the standard library of C++ it looked more and more appealing so here I am stuck at making C++ tree iterator with segfaults here and there maybe tomorrow It will be finished and I will share it with you, One can only hope.
 
 Thank you, If there is anyone reading this I'd be surprised I wrote this to blow some ideas and I have a lot more I wrote it for myself to serve as a motivation but if you are reading it kind reader I'd be very happy to contact me on my linkedin on my github page.
+
+
+## Second blog 
+
+Usually blogs have the latest entries and articles on top so you read the latest and most relevant content in the present moment; Despite this I oughted to continue upon the first blog/article for 2 reasons: first it is easier in the current format(As you read above it's all plain text converted to plain html which you can view at github.com/abdulla2/abdulla2.github.io) and I am lazy and didn't want to organize for each blog. Second The first article wasn't complete maybe I'll opt for a wiki style personal site instead of a blog, I still have ideas connected to what I wrote above so here we are in a mixture of a blog and a personal wiki.
+
+### The state of the tree 
+
+I mean of course C++ tree, I looked upon it yesterday and found that it wasn't building fixed the build issues and fixed a segfault but entered an infinite loop in the iterator I made; I swear I am not a bad developer but please notice that I was getting into C++ newely and I haven't used it much and I am trying to do this to understand it more; also I don't give much time for this it was merely a 20 minutes yesterday remembering and fixing the issue.
+
+### C++ nullptr_t argument overloading 
+
+I encounterd a problem yesterday that this snippet:
+
+```C++
+
+		Iter(Tree* node, Iter* parent = nullptr) : m_node{node}, m_curr_child(node->m_children.begin()), m_parent(parent)
+```
+
+crushed because I Intited the Iter node with null if it is the end() node I thought to myself I should be able to overload the first argument with null and I was true tried it and worked and confirmed it from the C++ reference, a happy moment because I thought to myself ok I get it; I get how you should treat those things in C++, so here you have it a happy little story.
+
+I will stop here give the tree a fair amount of trial to fix today and maybe continue this afterward.
+
+### One 20 minutes later
+
+Ok still not working but figured out why; as usual with modern C++ it has to do with moving semantics lvalue rvalue and those things, turns out I am returning a new object after each usage of operator++, I think I need after one month of not using C++ to revise some of the advanced things a little bit.
+
+I think that's all for today I am feeling a strong fever and I can't go on in anything.
+
+Wish me luck.
+
+

@@ -60,3 +60,45 @@ hope.</p>
 this to blow some ideas and I have a lot more I wrote it for myself to
 serve as a motivation but if you are reading it kind reader I’d be very
 happy to contact me on my linkedin on my github page.</p>
+<h2 id="second-blog">Second blog</h2>
+<p>Usually blogs have the latest entries and articles on top so you read
+the latest and most relevant content in the present moment; Despite this
+I oughted to continue upon the first blog/article for 2 reasons: first
+it is easier in the current format(As you read above it’s all plain text
+converted to plain html which you can view at
+github.com/abdulla2/abdulla2.github.io) and I am lazy and didn’t want to
+organize for each blog. Second The first article wasn’t complete maybe
+I’ll opt for a wiki style personal site instead of a blog, I still have
+ideas connected to what I wrote above so here we are in a mixture of a
+blog and a personal wiki.</p>
+<h3 id="the-state-of-the-tree">The state of the tree</h3>
+<p>I mean of course C++ tree, I looked upon it yesterday and found that
+it wasn’t building fixed the build issues and fixed a segfault but
+entered an infinite loop in the iterator I made; I swear I am not a bad
+developer but please notice that I was getting into C++ newely and I
+haven’t used it much and I am trying to do this to understand it more;
+also I don’t give much time for this it was merely a 20 minutes
+yesterday remembering and fixing the issue.</p>
+<h3 id="c-nullptr_t-argument-overloading">C++ nullptr_t argument
+overloading</h3>
+<p>I encounterd a problem yesterday that this snippet:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode c++"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>        Iter<span class="op">(</span>Tree<span class="op">*</span> node<span class="op">,</span> Iter<span class="op">*</span> parent <span class="op">=</span> <span class="kw">nullptr</span><span class="op">)</span> <span class="op">:</span> <span class="va">m_node</span><span class="op">{</span>node<span class="op">},</span> <span class="va">m_curr_child</span><span class="op">(</span>node<span class="op">-&gt;</span><span class="va">m_children</span><span class="op">.</span>begin<span class="op">()),</span> <span class="va">m_parent</span><span class="op">(</span>parent<span class="op">)</span></span></code></pre></div>
+<p>crushed because I Intited the Iter node with null if it is the end()
+node I thought to myself I should be able to overload the first argument
+with null and I was true tried it and worked and confirmed it from the
+C++ reference, a happy moment because I thought to myself ok I get it; I
+get how you should treat those things in C++, so here you have it a
+happy little story.</p>
+<p>I will stop here give the tree a fair amount of trial to fix today
+and maybe continue this afterward.</p>
+<h3 id="one-20-minutes-later">One 20 minutes later</h3>
+<p>Ok still not working but figured out why; as usual with modern C++ it
+has to do with moving semantics lvalue rvalue and those things, turns
+out I am returning a new object after each usage of operator++, I think
+I need after one month of not using C++ to revise some of the advanced
+things a little bit.</p>
+<p>I think that’s all for today I am feeling a strong fever and I can’t
+go on in anything.</p>
+<p>Wish me luck.</p>
