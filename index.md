@@ -78,4 +78,28 @@ I think that's all for today I am feeling a strong fever and I can't go on in an
 
 Wish me luck.
 
+## Third Day, I think?
 
+So the fever continues today I am not sure if I would be able to write anything today but let's try.
+
+### Future Projects and wishes to add to this blog
+
+As mentioned earlier I had planned without doing for the most of my professional and non-professional life that I want to contribute to open source projects and here I will list my wishes for projects I want to contribute to:
+
+* Every Text editor I passed by: Vim, Nvim, Helix, Kakoune, you name it every one of them got my interest all of them lack some feature here or there that is critical or I was lazy to learn it anyway and I am using Vs Code at my day job but for my side projects I use mostly nvim, So What are the features I want in all of them first true Bidirectional text support and Arabic letters support regardless of the terminal or frontend used this also feature/or bug fix would be a recurrent theme of something missing in most projects I mention here: Ladybird, Foot Terminal.
+
+* Other important feature that is lacking in nvim is multicursor support, they have it on their plan and it's semi-supported via some extensions but I want it out of the box.
+
+* All those and that doesn't mean I wouldn't still use Vs Code, You can't teach an old dog a new trick anyway!
+
+* Other Projects that I want to contribute to every lua engine out there especially of course the luajit I think there will be a lot of learning from this project.
+
+* The Lua dev community highly represents the xkcd meme that says something about how many standards or version of something are there and someone think to himself I will solve all this by creating this new version that deprecates them all and then after that you'll have n+1 versions for the same thing.
+
+* When I read lua documents I felt that its designers put too much thought into it from the beginning(They didn't design it in 10 days to match a deadline and yes I am looking at you javascript). also of course the JIT version is a state of art and its developer is a master anonymos dev going by Mike; The idea of compiler theory and programming languages design eluded me for long and the source code of lua is tempting to try tinkering and improving and so on.
+
+* My obsessions extends to every open source project I think I can(Even if in reality I might not be able to but then again we will never be sure unless I tried) contribute to this includes OSes: Zephyr, SerenityOS, maybe Linux also, Libraries: LVGL, and any open source program I think to myself it will be benefetical for me to try and study and contribute to it.
+
+### End of day
+
+Today my thoughts, ideas and writings weren't organized very noisy I think I will pass by them tommorrow and try to give them a good editing or maybe not, Thank you for reading either way my mysterious reader.
