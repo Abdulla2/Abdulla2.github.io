@@ -129,4 +129,8 @@ You can see the flaw here.
 
 After fixing it I remembered why in the first place I decided to write this tree class, This was because I thought to myself that it would be a good idea to save the directory of the input markdown structure as is to generate the output with the same structure.
 
+It is the weekend now and we'll see if I get doing anything useful or not.
+
+Stay safe.
+
 

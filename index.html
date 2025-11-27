@@ -152,3 +152,40 @@ and contribute to it.</p></li>
 <p>Today my thoughts, ideas and writings weren’t organized very noisy I
 think I will pass by them tommorrow and try to give them a good editing
 or maybe not, Thank you for reading either way my mysterious reader.</p>
+<h2 id="fourth-day-or-just-lets-not-count">Fourth Day or Just let’s not
+count</h2>
+<p>Edit you can skip and parenthises.</p>
+<p>After finishing the writing of yesterday I had somewhat of a power
+and will to go into the tree code and rewrote parts of it and fixed
+issues and the tree iterator worked, YAY, This should have been a
+section of celebration, I have 3 options either go on without
+celebrating, edit this and remove all this rant and add a proper
+introduction with explainatories or 3 don’t edit and keep the rant and
+make also a section to rant more.</p>
+<h3 id="tree-rant-section">Tree Rant Section</h3>
+<p>So to start off what was the issue in my implementation, many things,
+and I know this is now a recurring theme that I swear each time I am not
+incompetent developer, but what is a competent developer anyway? (This
+is a philosophical question to derail you from putting me under the
+microsocope).</p>
+<ul>
+<li>I dumbly thought that (And I really don’t know why I thought that
+this puts me again in very bad shape where you’ll think I don’t know how
+operator overloading works in C++) the return of the operator is the
+side effect I needed of it so ++operator for an int class type let’s say
+will look like this</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode c++"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> <span class="kw">operator</span><span class="op">++()</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="op">(*</span><span class="kw">this</span> <span class="op">+</span> <span class="dv">1</span><span class="op">);</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>You can see the flaw here.</p>
+<p>After fixing it I remembered why in the first place I decided to
+write this tree class, This was because I thought to myself that it
+would be a good idea to save the directory of the input markdown
+structure as is to generate the output with the same structure.</p>
+<p>It is the weekend now and we’ll see if I get doing anything useful or
+not.</p>
+<p>Stay safe.</p>
