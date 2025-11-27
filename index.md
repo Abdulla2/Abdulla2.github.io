@@ -103,3 +103,30 @@ As mentioned earlier I had planned without doing for the most of my professional
 ### End of day
 
 Today my thoughts, ideas and writings weren't organized very noisy I think I will pass by them tommorrow and try to give them a good editing or maybe not, Thank you for reading either way my mysterious reader.
+
+
+## Fourth Day or Just let's not count
+
+Edit you can skip and parenthises.
+
+After finishing the writing of yesterday I had somewhat of a power and will to go into the tree code and rewrote parts of it and fixed issues and the tree iterator worked, YAY, This should have been a section of celebration, I have 3 options either go on without celebrating, edit this and remove all this rant and add a proper introduction with explainatories or 3 don't edit and keep the rant and make also a section to rant more.
+
+### Tree Rant Section
+
+So to start off what was the issue in my implementation, many things, and I know this is now a recurring theme that I swear each time I am not incompetent developer, but what is a competent developer anyway? (This is a philosophical question to derail you from putting me under the microsocope).
+
+* I dumbly thought that (And I really don't know why I thought that this puts me again in very bad shape where you'll think I don't know how operator overloading works in C++) the return of the operator is the side effect I needed of it so ++operator for an int class type let's say will look like this
+
+```C++
+int operator++()
+{
+    return (*this + 1);
+
+}
+```
+
+You can see the flaw here.
+
+After fixing it I remembered why in the first place I decided to write this tree class, This was because I thought to myself that it would be a good idea to save the directory of the input markdown structure as is to generate the output with the same structure.
+
+
