@@ -156,3 +156,9 @@ I mentioned pandoc before as the tool I use currently to generate this site, but
 Enough for now I will return back with good news or never return.
 
 Regards.
+
+
+## Sixth Day: Sick day
+
+I am very sick I can't write anything today; Stay well.
+
